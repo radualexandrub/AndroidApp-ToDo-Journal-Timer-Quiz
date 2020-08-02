@@ -1,4 +1,4 @@
-# AndroidApp_ToDo_Journal_Timer_Quiz
+# AndroidApp-ToDo-Journal-Timer-Quiz
 Android Application that contains multiple functionalities such as ToDo List,  Journal (with titles, entry description, time stamps), Countdown timer, and a Quiz that generates different responses based on question answers (like a Personality test).
 
 <img src="Screenshots/Screenshot_Cover.jpg" width=1000 height=563>
@@ -31,27 +31,27 @@ I worked on this project (with zero knowledge prior to Java and Android) from Ma
 
 ## Clone, Build and run the app
 ```
-$ git clone https://github.com/radualexandrub/AndroidApp_ToDo_Journal_Timer_Quiz.git RaduApp
+$ git clone https://github.com/radualexandrub/AndroidApp-ToDo-Journal-Timer-Quiz.git RaduApp
 $ cd RaduApp
 ```
 - Import the project into Android Studio by selecting build.gradle or settings.gradle from the root of the project.
 - Run the app using the "play" or "debug" button.
 
 ## More details about the functionalities:
-1. ToDo List (Organizer)
+1. **ToDo List (Organizer)**
     - create and delete tasks 
     - the tasks are saved locally using SQLite
-2. Journal
+2. **Journal**
     - create and delete entries that have multiple fields (title, description, date)
     - the entries are saved in cloud using Firebase
-3. Simple countdown timer
+3. **Simple countdown timer**
     - Countdown from 25 minutes that can be paused, resumed or stopped/reset
-4. Simple Quiz with the same questions
+4. **Simple Quiz with the same questions**
     - Every answer has a number of points that can be cumulated
     - The value of the cumulated sum will be within a range
     - For every range there will be a different returned value (eg. Based on your previous answers, your hobby could be X)
     - The returned value will be written in a .txt file
-5. Simple list of book entries
+5. **Simple list of book entries**
     - An activity will read the returned value within .txt file and will show a book that could be useful along the recommended hobby
 
 ## Demos
