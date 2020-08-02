@@ -8,20 +8,23 @@ Android Application that contains multiple functionalities such as ToDo List,  J
   <img src="Screenshots/Screenshot_1.jpg" width=240 height=460>
   <img src="Screenshots/Screenshot_2.jpg" width=240 height=460>
   <img src="Screenshots/Screenshot_3.jpg" width=240 height=460>
-  <img src="Screenshots/Screenshot_4.jpg" width=240 height=460>
 </p>
 <p float="left">
+  <img src="Screenshots/Screenshot_4.jpg" width=240 height=460>
   <img src="Screenshots/Screenshot_6.jpg" width=240 height=460>
   <img src="Screenshots/Screenshot_7.jpg" width=240 height=460>
-  <img src="Screenshots/Screenshot_8.jpg" width=240 height=460>
-  <img src="Screenshots/Screenshot_9.jpg" width=240 height=460>
 </p>
 <p float="left">
+  <img src="Screenshots/Screenshot_8.jpg" width=240 height=460>
+  <img src="Screenshots/Screenshot_9.jpg" width=240 height=460>
   <img src="Screenshots/Screenshot_10.jpg" width=240 height=460>
+</p>
+<p float="left">
   <img src="Screenshots/Screenshot_12.jpg" width=240 height=460>
   <img src="Screenshots/Screenshot_14.jpg" width=240 height=460>
   <img src="Screenshots/Screenshot_15.jpg" width=240 height=460>
 </p>
+
 
 ## About
 I worked on this project (with zero knowledge prior to Java and Android) from March 2019 until May 2019 in order to see how it's like to build an Application on Android.
@@ -36,20 +39,26 @@ $ cd RaduApp
 
 ## More details about the functionalities:
 1. ToDo List (Organizer)
-  - create and delete tasks 
-  - the tasks are saved locally using SQLite
+    - create and delete tasks 
+    - the tasks are saved locally using SQLite
 2. Journal
-  - create and delete entries that have multiple fields (title, description, date)
-  - the entries are saved in cloud using Firebase
+    - create and delete entries that have multiple fields (title, description, date)
+    - the entries are saved in cloud using Firebase
 3. Simple countdown timer
-  - Countdown from 25 minutes that can be paused, resumed or stopped/reset
+    - Countdown from 25 minutes that can be paused, resumed or stopped/reset
 4. Simple Quiz with the same questions
-  - Every answer has a number of points that can be cumulated
-  - The value of the cumulated sum will be within a range
-  - For every range there will be a different returned value (eg. Based on your previous answers, your hobby could be X)
-  - The returned value will be written in a .txt file
+    - Every answer has a number of points that can be cumulated
+    - The value of the cumulated sum will be within a range
+    - For every range there will be a different returned value (eg. Based on your previous answers, your hobby could be X)
+    - The returned value will be written in a .txt file
 5. Simple list of book entries
-  - An activity will read the returned value within .txt file and will show a book that could be useful along the recommended hobby
+    - An activity will read the returned value within .txt file and will show a book that could be useful along the recommended hobby
+
+## Demos
+![Demo 01](Demos/01.gif)
+![Demo 02](Demos/02.gif)
+![Demo 03](Demos/03.gif)
+![Demo 04](Demos/04.gif)
 
 ## Dependencies and versions used:
 ```
