@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Your Growth Companion</string>
+    <string name="title_activity_hobby">Hobby</string>
+    <string name="title_activity_jurnal">Jurnal</string>
+    <string name="title_activity_productivitate">Productivitate</string>
+    <string name="title_activity_carti">Carti</string>
+    <string name="title_activity_organizator">Organizator</string>
+    <string name="title_activity_pomodoro">Tehnica Pomodoro</string>
+</resources>

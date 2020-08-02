@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ro.upb.etti.stud.firstproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Organizator_package.Organizator"
+            android:label="@string/title_activity_organizator"
+            android:parentActivityName=".MainActivity" />
+
+        <!--Intrare noua in jurnal-->
+        <activity
+            android:name=".Jurnal_package.Jurnal_New"
+            android:label="@string/title_activity_jurnal"
+            android:parentActivityName=".Jurnal_package.Jurnal"/>
+        <activity
+            android:name=".Jurnal_package.Jurnal_Edit"
+            android:label="Jurnal"
+            android:parentActivityName=".Jurnal_package.Jurnal"/>
+        <activity
+            android:name=".Jurnal_package.Jurnal"
+            android:label="@string/title_activity_jurnal"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".Productivitate_package.Productivitate"
+            android:label="@string/title_activity_productivitate"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Productivitate_package.Pomodoro"
+            android:label="@string/title_activity_pomodoro"
+            android:parentActivityName=".Productivitate_package.Productivitate"
+            android:theme="@style/AppFullScreenTheme" />
+
+        <activity
+            android:name=".Carti_package.Carti"
+            android:label="@string/title_activity_carti"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Carti_package.Carti_rezultat"
+            android:label="Recomandare carti"
+            android:parentActivityName=".Carti_package.Carti"/>
+        <activity
+            android:name=".Carti_package.Carti_afisare"
+            android:label="Afisare carti"
+            android:parentActivityName=".Carti_package.Carti"/>
+
+        <activity
+            android:name=".Hobby"
+            android:label="@string/title_activity_hobby"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Hobby_rezultat"
+            android:label="Hobby rezultat"/>
+    </application>
+
+</manifest>

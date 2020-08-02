@@ -1,0 +1,250 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ro.upb.etti.stud.firstproject.MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/homepage"
+    android:gravity="center|top">
+
+<!-- Inceput Bloc LinearLayout pentru inserare rand icoane -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+        android:id="@+id/idOrganizator"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/transparent"
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:background="@drawable/circlebackgroundpurple"
+                android:padding="10dp"
+                android:src="@drawable/ic_event_note_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="Organizator"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_margin="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Vizualizare si planificare task-uri"
+                android:padding="5dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/idJurnal"
+
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="0dp"
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:background="@drawable/circlebackgroundlightblue"
+                android:padding="10dp"
+                android:src="@drawable/ic_chrome_reader_mode_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="Jurnal"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_margin="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Scriere si vizualizare intrari jurnal"
+                android:padding="5dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <!-- Sfarsit Bloc LinearLayout pentru inserare rand icoane -->
+
+
+    <!-- Inceput Bloc LinearLayout pentru inserare rand icoane -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+        android:id="@+id/idProductivitate"
+
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="0dp"
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp">
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:background="@drawable/circlebackgroudyellow"
+                android:padding="10dp"
+                android:src="@drawable/ic_check_box_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="Productivitate"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_margin="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ajutor pentru finalizare task-uri"
+                android:padding="5dp"/>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+        android:id="@+id/idCarti"
+
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="0dp"
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:background="@drawable/circlebackgroundpink"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_book_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:text="Carti"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:layout_margin="2dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Recomandari \nCarti"
+                    android:padding="5dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <!-- Sfarsit Bloc LinearLayout pentru inserare rand icoane -->
+
+    <!-- Inceput Bloc LinearLayout pentru inserare rand icoane -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+        android:id="@+id/idHobby"
+
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="0dp"
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:background="@drawable/circlebackgrounddarkblue"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_sentiment_very_satisfied_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:text="Hobby"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:layout_margin="2dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Quiz recomandare hobby"
+                    android:padding="5dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <!-- Sfarsit Bloc LinearLayout pentru inserare rand icoane -->
+
+</LinearLayout>

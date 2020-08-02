@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/carte_pictat"></ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Mastering Composition"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="This effective guide blends clear, visual instruction with 5 step-by-step demonstrations to show you how to plan and paint your best work yet." />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/carte_jocuri"></ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Blood, Sweat, and Pixels"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Developing video games: The creative and technical logistics that go into building today's hottest games can be more harrowing and complex than the games themselves." />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/carte_fotografiat"></ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Stunning Digital Photography"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Stunning Digital Photography is much more than a book; it’s a hands-on, self-paced photography class with over 14 hours of online training videos." />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/carte_sport"></ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Bigger Leaner Stronger"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Building muscle and burning fat isn't as complicated as the fitness industry wants you to believe. This book is the shortcut." />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/carte_ciclism"></ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="The Secret Race"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="The Secret Race is a definitive look at the world of professional cycling—and the doping issue surrounding this sport." />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/carte_meditatie"></ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="The Power of Now"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="To make the journey into The Power of Now we will need to leave our analytical mind and its false created self, the ego, behind." />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/carte_gatit"></ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Joy of cooking"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="The book gives the most beloved recipes from past editions and includes quick, healthy recipes for the way we cook today." />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/carte_gradinarit"></ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="All New Square Foot Gardening"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Square Foot Gardening is the most practical, foolproof way to grow a home garden, whether you're growing an urban garden, or have an entire backyard." />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/carte_pescuit">
+                </ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Basic Fishing"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="New to fishing and have no idea how to start? With Basic Fishing, you’ll be an accomplished angler in no time at all." />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

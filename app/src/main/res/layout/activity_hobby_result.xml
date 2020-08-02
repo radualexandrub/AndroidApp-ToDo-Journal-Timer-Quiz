@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Hobby_rezultat"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/backgroundColor"
+    android:gravity="top">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:text="Felicitari! \nHobby-ul pe care il poti incerca este:"/>
+
+        <ImageView
+            android:id="@+id/hobby_image_id"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:id="@+id/hobby_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:text="Hobby!"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="true"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/hobby_btn_retry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="Refacere quiz"/>
+
+        <Button
+            android:id="@+id/hobby_btn_carti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="Vezi carti care se potrivesc \nacestui hobby"/>
+
+        <Button
+            android:id="@+id/hobby_btn_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="pagina principala"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
