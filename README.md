@@ -1,31 +1,31 @@
 # AndroidApp_ToDo_Journal_Timer_Quiz
 Android Application that contains multiple functionalities such as ToDo List,  Journal (with titles, entry description, time stamps), Countdown timer, and a Quiz that generates different responses based on question answers (like a Personality test).
 
-<img src="Screenshots/Screenshot_Cover" width=1600 height=900>
+<img src="Screenshots/Screenshot_Cover" width=1000 height=563>
 
 ## Screenshots
 <p float="left">
-  <img src="Screenshots/Screenshot_1" width=240 height=390>
-  <img src="Screenshots/Screenshot_2" width=240 height=390>
-  <img src="Screenshots/Screenshot_3" width=240 height=390>
-  <img src="Screenshots/Screenshot_4" width=240 height=390>
+  <img src="Screenshots/Screenshot_1.jpg" width=240 height=390>
+  <img src="Screenshots/Screenshot_2.jpg" width=240 height=390>
+  <img src="Screenshots/Screenshot_3.jpg" width=240 height=390>
+  <img src="Screenshots/Screenshot_4.jpg" width=240 height=390>
 </p>
 <p float="left">
-  <img src="Screenshots/Screenshot_6" width=240 height=390>
-  <img src="Screenshots/Screenshot_7" width=240 height=390>
-  <img src="Screenshots/Screenshot_8" width=240 height=390>
-  <img src="Screenshots/Screenshot_9" width=240 height=390>
+  <img src="Screenshots/Screenshot_6.jpg" width=240 height=390>
+  <img src="Screenshots/Screenshot_7.jpg" width=240 height=390>
+  <img src="Screenshots/Screenshot_8.jpg" width=240 height=390>
+  <img src="Screenshots/Screenshot_9.jpg" width=240 height=390>
 </p>
 <p float="left">
-  <img src="Screenshots/Screenshot_10" width=240 height=390>
-  <img src="Screenshots/Screenshot_11" width=240 height=390>
-  <img src="Screenshots/Screenshot_12" width=240 height=390>
-  <img src="Screenshots/Screenshot_13" width=240 height=390>
+  <img src="Screenshots/Screenshot_10.jpg" width=240 height=390>
+  <img src="Screenshots/Screenshot_11.jpg" width=240 height=390>
+  <img src="Screenshots/Screenshot_12.jpg" width=240 height=390>
+  <img src="Screenshots/Screenshot_13.jpg" width=240 height=390>
 </p>
 <p float="left">
-  <img src="Screenshots/Screenshot_14" width=240 height=390>
-  <img src="Screenshots/Screenshot_15" width=240 height=390>
-  <img src="Screenshots/Screenshot_16" width=240 height=390>
+  <img src="Screenshots/Screenshot_14.jpg" width=240 height=390>
+  <img src="Screenshots/Screenshot_15.jpg" width=240 height=390>
+  <img src="Screenshots/Screenshot_16.jpg" width=240 height=390>
 </p>
 
 ## About
