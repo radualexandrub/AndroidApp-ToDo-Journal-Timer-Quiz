@@ -1,7 +1,7 @@
 # AndroidApp-ToDo-Journal-Timer-Quiz
 Android Application that contains multiple functionalities such as ToDo List,  Journal (with titles, entry description, time stamps), Countdown timer, and a Quiz that generates different responses based on question answers (like a Personality test).
 
-<img src="Screenshots/Screenshot_Cover.jpg" width=1000 height=563>
+<img src="Images/Project_Database_MultipleTables1.png" width=1000>
 
 ## Screenshots
 <p float="left">
@@ -30,7 +30,7 @@ Android Application that contains multiple functionalities such as ToDo List,  J
 I worked on this project (with zero knowledge prior to Java and Android) from March 2019 until May 2019 in order to see how it's like to build an Application on Android.
 
 ## Clone, Build and run the app
-```
+```bash
 $ git clone https://github.com/radualexandrub/AndroidApp-ToDo-Journal-Timer-Quiz.git RaduApp
 $ cd RaduApp
 ```
